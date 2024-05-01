@@ -1,5 +1,32 @@
+.card{
+  border: 1px solid hsl(0, 0%, 27%);
+  border-radius: 10px;
+  box-shadow:5px 5px 5px hsl(0, 0%, 50%) ;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  background-color: rgb(219, 219, 216);
+}
 
+.card .class-card{
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
 
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 31%);
+}
+.card .card-para{
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 31%);
+}
 
 
 
