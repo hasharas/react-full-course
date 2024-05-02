@@ -1,3 +1,22 @@
+
+.student{
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+  margin: 8px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(49, 36, 20);
+  background-color: rgb(113, 112, 111);
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px black;
+
+}
+.student p{
+  margin: 1px;
+}
+
+
+/* create card component
+
 .card{
   border: 1px solid hsl(0, 0%, 27%);
   border-radius: 10px;
@@ -28,7 +47,7 @@
   color: hsl(0, 0%, 31%);
 }
 
-
+*/
 
 
 /*:root {
