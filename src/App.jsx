@@ -1,15 +1,20 @@
 // import Card from "./Card.jsx"; <Card />
 //import Student from "./Student.jsx"; <Student name="thor" age={10} isStudent={true} />
-import UserGreeting from "./UserGreeting.jsx";
+//import UserGreeting from "./UserGreeting.jsx"; <UserGreeting userName = "hashara" isLogin = {true} />
+//import List from "./List.jsx"
+import List2 from "./List2.jsx";
+
 
 function app (){
+
+  const fruits = [{id : 1,name : "banana", calories : 424},
+                  {id : 2,name : "orenge", calories : 264},
+                  {id : 3,name : "apple", calories : 624},
+                  {id : 4,name : "coconut", calories : 724},
+                  {id : 5,name : "mango", calories : 124} ];
+                  
   return(
-<>
-   
-  <UserGreeting userName = "hashara" isLogin = {true} />
-  
-   
-</>
+          <List2 items={fruits} category= "fruits" />
 );
 }
 
