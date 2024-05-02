@@ -1,4 +1,24 @@
 
+.welcome-m{
+font-size: 2em;
+background-color: rgb(63, 122, 87);
+color: white;
+padding: 10px;
+border-radius: 5px;
+margin: 0;
+}
+.login-m{
+  font-size: 2em;
+  background-color: rgb(159, 48, 48);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/*
+props part
+
 .student{
   border: 1px solid hsla(0, 0%, 0%, 0.8);
   margin: 8px;
@@ -13,7 +33,7 @@
 .student p{
   margin: 1px;
 }
-
+*/
 
 /* create card component
 
