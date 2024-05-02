@@ -1,3 +1,26 @@
+.c-item{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 14%);
+  text-align: center;
+  margin-bottom: 10px;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: rgb(107, 136, 124);
+
+}
+.l-item li{
+  font-size: 2em;
+  list-style: none;
+  color: rgb(86, 85, 85);
+  text-align: center;
+  margin: 0;
+
+}
+.l-item li:hover{
+  cursor: pointer;
+  color:rgb(51, 50, 50) ;
+}
 
 
 

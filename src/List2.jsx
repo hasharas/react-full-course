@@ -11,8 +11,8 @@ function List2(props){
 
 
       return(<>
-            <h2>{category}</h2>
-            <ol>{ListItem}</ol>
+            <h2 className="c-item">{category}</h2>
+            <ol className="l-item">{ListItem}</ol>
 
             </>
       )

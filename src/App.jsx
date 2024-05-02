@@ -12,9 +12,16 @@ function app (){
                   {id : 3,name : "apple", calories : 624},
                   {id : 4,name : "coconut", calories : 724},
                   {id : 5,name : "mango", calories : 124} ];
+  const vegitable = [{id : 6,name : "beens", calories : 124},
+                    {id : 7,name : "potato", calories : 274},
+                    {id : 8,name : "carrot", calories : 614},
+                    {id : 9,name : "corn", calories : 524},
+                    {id : 10,name : "tomato", calories : 724} ];                
                   
-  return(
-          <List2 items={fruits} category= "fruits" />
+  return(<>
+         {fruits.length > 0 && <List2 items={fruits} category= "Fruits" />}
+         {vegitable.length > 0 &&<List2 items={vegitable} category= "Vegitable" />}
+          </>
 );
 }
 
