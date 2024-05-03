@@ -22,14 +22,15 @@ import List2 from "./List2.jsx";
 */                    
 //import Button from "./Button.jsx"; <Button />
 
-import Picture from "./Picture.jsx";
+//import Picture from "./Picture.jsx"; <Picture />
+//import Mycomponent from "./Mycomponent.jsx"; <Mycomponent />
 
 function app (){
 
            
                   
   return(<>
-        <Picture />
+
           </>
 );
 }
